@@ -13,7 +13,7 @@ namespace MinhaDemoMvc.Controllers
             _logger = logger;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(string id,  string categoria)
         {
             return View();
         }
